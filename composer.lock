@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0840d639981f60a3261943eb98ff5152",
+    "content-hash": "1747d854124bbe6189aa88b1737550d8",
     "packages": [
         {
             "name": "jbroadway/urlify",
@@ -170,11 +170,11 @@
         },
         {
             "name": "koala-framework/koala-framework",
-            "version": "5.0.x-dev",
+            "version": "5.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.vivid-planet.com:vivid/koala-framework.git",
-                "reference": "c7ecd88c1fc699062ba8d2b4783842f40cc5c007"
+                "reference": "19abc94f12d3c72a7bc942f92611cec4b7ddc076"
             },
             "require": {
                 "jbroadway/urlify": "^1.0.5",
@@ -292,7 +292,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2018-06-26T07:55:41+00:00"
+            "time": "2018-06-26T07:56:02+00:00"
         },
         {
             "name": "koala-framework/kwf-trl-jsparser",
