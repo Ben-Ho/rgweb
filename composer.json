@@ -1,6 +1,6 @@
 {
     "require": {
-        "koala-framework/koala-framework": "4.4.x-dev"
+        "koala-framework/koala-framework": "4.5.x-dev"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -12,8 +12,7 @@
     ],
     "extra": {
         "require-bower": {
-            "susy": "vivid-planet/susy#18ad7cba4101e85bf4ed0ecfa45e6c2d59489a76",
-            "jquery": "1.11.3"
+            "susy": "vivid-planet/susy#18ad7cba4101e85bf4ed0ecfa45e6c2d59489a76"
         }
     },
     "config": {

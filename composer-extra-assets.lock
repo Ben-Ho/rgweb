@@ -3,7 +3,7 @@
         "compass-mixins": "https://github.com/Igosuki/compass-mixins.git#0.12.10",
         "es5-shim": "https://github.com/es-shims/es5-shim.git#4.5.10",
         "html5shiv": "https://github.com/aFarkas/html5shiv.git#3.7.3",
-        "jquery": "https://github.com/jquery/jquery-dist.git#1.11.3",
+        "jquery": "https://github.com/jquery/jquery-dist.git#3.3.1",
         "js-cookie": "https://github.com/js-cookie/js-cookie.git#2.2.0",
         "matches-selector": "https://github.com/desandro/matches-selector.git#1.0.3",
         "susy": "https://github.com/vivid-planet/susy.git#18ad7cba4101e85bf4ed0ecfa45e6c2d59489a76",

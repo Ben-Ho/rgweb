@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1394d4d79cf19dbd2c20c3e781263bb8",
+    "content-hash": "1672b9bf213e1de0c05338909d73dd38",
     "packages": [
         {
             "name": "jbroadway/urlify",
@@ -170,11 +170,11 @@
         },
         {
             "name": "koala-framework/koala-framework",
-            "version": "4.4.x-dev",
+            "version": "4.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.vivid-planet.com:vivid/koala-framework.git",
-                "reference": "a2ad071b7ef09cf43ce42efa4f6fd3cb8a075a9f"
+                "reference": "c87d365a8f52289664a569db651ad9786dc52eb9"
             },
             "require": {
                 "jbroadway/urlify": "^1.0.5",
@@ -206,7 +206,7 @@
             "type": "library",
             "extra": {
                 "require-bower": {
-                    "jquery": "~1.11 <3.0.0",
+                    "jquery": "^3.2.1",
                     "compass-mixins": "0.12.10",
                     "tinymce": "tinymce/tinymce#4.1.9",
                     "matches-selector": "^1.0.3",
@@ -275,7 +275,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2018-06-26T07:54:29+00:00"
+            "time": "2018-06-26T07:54:52+00:00"
         },
         {
             "name": "koala-framework/kwf-trl-jsparser",
