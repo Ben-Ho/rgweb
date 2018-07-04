@@ -1,5 +1,6 @@
-.cssClass {
-    background-color: var(mainColorLight);
+@import "config/colors";
+.kwcClass {
+    background-color: $mainColorLight;
     behaviour: url('/assets/web/images/border-radius.htc');
     margin: 0px 10px;
     padding: 0px 5px 5px 5px;
@@ -10,9 +11,9 @@
     behaviour: url('/assets/web/images/border-radius.htc');
 }
 
-.cssClass ul.menu li.current a,
-.cssClass ul.menu li a:hover {
-    background-color: var(mainColor);
+.kwcClass ul.menu li.current a,
+.kwcClass ul.menu li a:hover {
+    background-color: $mainColor;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     -khtml-border-radius: 0px;

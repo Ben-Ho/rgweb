@@ -1,24 +1,25 @@
-.cssClass {
-    background-color: var(mainColor);
+@import "config/colors";
+.kwcClass {
+    background-color: $mainColor;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
     behaviour: url('/assets/web/images/border-radius.htc');
 }
-.cssClass ul li a {
+.kwcClass ul li a {
     display: block;
     height: 30px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color: var(light);
+    color: $light;
     padding-top: 15px;
 }
-.cssClass ul.menu li.current a,
-.cssClass ul.menu li a:hover {
-    color: var(light);
-    background-color: var(mainColorLight);
+.kwcClass ul.menu li.current a,
+.kwcClass ul.menu li a:hover {
+    color: $light;
+    background-color: $mainColorLight;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;

@@ -5,7 +5,7 @@ class Menu_Sub_Component extends Kwc_Menu_Expanded_Component
     {
         $ret = parent::getSettings();
         $ret['level'] = 2;
-        $ret['cssClass'] .= ' webListNone';
+        $ret['rootElementClass'] .= ' kwfUp-webListNone';
         return $ret;
     }
 }

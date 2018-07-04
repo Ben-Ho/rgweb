@@ -1,4 +1,4 @@
-<div class="<?=$this->cssClass;?> kwfTabs">
+<div class="<?=$this->rootElementClass?> kwfTabs">
     <?
     $i = 0;
     foreach ($this->listItems as $child) {
@@ -16,7 +16,7 @@
             <div class="beforeTab"></div>
             <div class="tab"><?=$child['title'];?></div>
             <div class="afterTab"></div>
-            <div class="clear"></div>
+            <div class="kwfUp-clear"></div>
         </div>
         <div class="<?=$class;?> kwfTabsContent <? if ($i == 0) echo 'kwfTabsContentActive'; ?>">
             <?=$this->component($child['data']);?>

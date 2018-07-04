@@ -1,0 +1,24 @@
+@import "config/colors";
+.kwfUp-webStandard { font-family: Arial, Helvetica, Verdana, Geneva, sans-serif; font-size: 12px; color: $typo; }
+.kwfUp-webStandard strong { font-weight: bold; }
+.kwfUp-webStandard em { font-style: italic; }
+
+.kwfUp-webStandard p { line-height: 18px; color: $typo; margin-bottom: 10px; }
+.kwfUp-webStandard p::selection {
+    background: $mainColorLight;
+}
+.kwfUp-webStandard p::-moz-selection {
+    background: $mainColorLight;
+}
+
+.kwfUp-webStandard h1 { font-size: 25px; margin-bottom: 10px; color: $mainColor; } /* Überschrift 1 */
+.kwfUp-webStandard h2 { font-size: 20px; margin-bottom: 10px; color: $mainColor; } /* Überschrift 2 */
+.kwfUp-webStandard h3 { font-size: 12px; margin-bottom: 5px; } /* Überschrift 3 */
+
+.kwfUp-webStandard a { text-decoration: none; color: $mainColor; outline: none; }
+.kwfUp-webStandard a:hover { text-decoration: none; color: $secColor; }
+.kwfUp-webStandard a:link { text-decoration: none; }
+
+.kwfUp-webStandard ol,
+.kwfUp-webStandard ul { margin-bottom: 10px; margin-left: 20px; }
+.kwfUp-webStandard li { list-style-type: square; margin-bottom: 5px; line-height: 18px; color: $typo; }

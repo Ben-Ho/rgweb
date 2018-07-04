@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d865dbb29b8334011d8f877f8012df1d",
+    "content-hash": "7163d72eee082bcdf7479f0aad2a0be4",
     "packages": [
         {
             "name": "jbroadway/urlify",
@@ -167,11 +167,11 @@
         },
         {
             "name": "koala-framework/koala-framework",
-            "version": "3.11.x-dev",
+            "version": "4.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.vivid-planet.com:vivid/koala-framework.git",
-                "reference": "735d1a359f4af620d779947826708c4c2ba3f041"
+                "reference": "eafa6cd8d5de30f17f951c11cbafb281d547fca0"
             },
             "require": {
                 "jbroadway/urlify": "1.0.5-stable",
@@ -182,7 +182,7 @@
                 "koala-framework/library-css3pie": "1.0.0",
                 "koala-framework/library-htmlawed": "1.1.14",
                 "koala-framework/library-silkicons": "1.3",
-                "koala-framework/sourcemaps": "0.3.0",
+                "koala-framework/sourcemaps": "~0.4.0",
                 "koala-framework/zendframework1": "1.12.13.*",
                 "sepia/po-parser": "4.2.1",
                 "symfony/console": "~2.5",
@@ -203,12 +203,8 @@
             "type": "library",
             "extra": {
                 "require-bower": {
-                    "jquery": "1.11.1",
-                    "jquery.transit": "0.9.9",
-                    "jquery.easing": "1.3.0",
-                    "underscore": "1.7.0",
-                    "susy": "vivid-planet/susy#18ad7cba4101e85bf4ed0ecfa45e6c2d59489a76",
-                    "swfobject": "swfobject/swfobject#2.2",
+                    "jquery": "~1.11 || 2.*",
+                    "underscore": "1.8.3",
                     "compass-mixins": "koala-framework/compass-mixins#7319116335050516e01b250b6e771600ab55e105",
                     "tinymce": "tinymce/tinymce#4.1.9",
                     "matches-selector": "1.0.3"
@@ -217,7 +213,14 @@
                     "uglify-js": "2.4.13",
                     "node-sass": "3.4.2",
                     "amdlc": "0.1.5",
-                    "modernizr": "git://github.com/Modernizr/Modernizr.git#eb211bbcb"
+                    "browser-pack": "5.0.1",
+                    "module-deps": "3.8.0",
+                    "JSONStream": "1.0.4",
+                    "modernizr": "git://github.com/Modernizr/Modernizr.git#eb211bbcb",
+                    "postcss": "5.0.13",
+                    "es6-promise": "3.0.2",
+                    "css-selectors-count": "1.0.1",
+                    "postcss-chunk": "git://github.com/koala-framework/postcss-chunk.git#1b5a343cd4017d5608ece9f5f7a702f4db821171"
                 },
                 "require-dev-bower": {
                     "qunit": "1.18.0",
@@ -226,9 +229,12 @@
                 "kwf": {
                     "exclude-production": [
                         "symfony/console",
+                        "symfony/process",
                         "koala-framework/file-watcher",
                         "koala-framework/sourcemaps",
                         "koala-framework/composer-extra-assets",
+                        "koala-framework/kwf-trl-jsparser",
+                        "sepia/po-parser",
                         "nodejs/nodejs"
                     ]
                 },
@@ -254,7 +260,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2018-05-23T08:06:47+00:00"
+            "time": "2018-05-23T08:07:16+00:00"
         },
         {
             "name": "koala-framework/kwf-trl-jsparser",
@@ -376,16 +382,16 @@
         },
         {
             "name": "koala-framework/sourcemaps",
-            "version": "v0.3.0",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/sourcemaps.git",
-                "reference": "d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879"
+                "reference": "184c8d7c56bcd1d73efc05509d4e97ec5fb0c633"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879",
-                "reference": "d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879",
+                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/184c8d7c56bcd1d73efc05509d4e97ec5fb0c633",
+                "reference": "184c8d7c56bcd1d73efc05509d4e97ec5fb0c633",
                 "shasum": ""
             },
             "require-dev": {
@@ -408,7 +414,7 @@
             ],
             "description": "Sourcemaps Utities",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2015-08-10T16:14:47+00:00"
+            "time": "2015-12-07T07:12:27+00:00"
         },
         {
             "name": "koala-framework/zendframework1",

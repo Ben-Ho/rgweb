@@ -1,3 +1,4 @@
+@import "config/colors";
 body.ext2-ie6 { text-align: center; }
 
 #page {
@@ -15,7 +16,7 @@ body.ext2-ie6 { text-align: center; }
 #page #outerFooter #footer { width: 780px; margin: 0px auto; text-align: left; }
 
 #page #outerHeader #header {
-    background-color: var(mainColor);
+    background-color: $mainColor;
     height: 50px;
     font-size: 35px;
     padding-top: 7px;
@@ -34,45 +35,45 @@ body.ext2-ie6 { text-align: center; }
 
 #page #outerFooter { repeat-x top left; }
 #page #outerFooter #footer { padding: 15px; height: 60px; position: relative; }
-#page #outerFooter #footer p { margin-bottom: 0px; color: var(darkGray); }
+#page #outerFooter #footer p { margin-bottom: 0px; color: $darkGray; }
 #page #outerFooter #footer .menu { position: absolute; width: 780px; top: 10px; }
 #page #outerFooter #footer .based {
     position: absolute; right: 0; width: 400px; font-weight: bold;
 }
 
-.webListNone ul { margin: 0px; }
-.webListNone,
-.webListNone li { margin-bottom: 0px; }
+.kwfUp-webListNone ul { margin: 0px; }
+.kwfUp-webListNone,
+.kwfUp-webListNone li { margin-bottom: 0px; }
 
-.webForm input,
-.webForm textarea,
-.webForm label,
-.webForm button,
-.webForm select {
+.kwfUp-webForm input,
+.kwfUp-webForm textarea,
+.kwfUp-webForm label,
+.kwfUp-webForm button,
+.kwfUp-webForm select {
     font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
     font-size: 12px;
-    color: var(typo);
+    color: $typo;
     line-height: 18px;
 }
 
-.webForm label { text-align: left; }
-.webForm .submitWrapper { margin: 10px 0px 10px 140px; }
-.webForm button { color: var(light); background: none !important; border: none !important; }
-.webForm button:hover { color: var(mainColor); }
+.kwfUp-webForm label { text-align: left; }
+.kwfUp-webForm .submitWrapper { margin: 10px 0px 10px 140px; }
+.kwfUp-webForm button { color: $light; background: none !important; border: none !important; }
+.kwfUp-webForm button:hover { color: $mainColor; }
 
-.webForm .beforeButton,
-.webForm .afterButton {
+.kwfUp-webForm .beforeButton,
+.kwfUp-webForm .afterButton {
     display: block;
     float: left;
     width: 4px;
     height: 27px;
-    background: url('/assets/web/images/webFormButtonLeft.png') no-repeat top right;
+    background: url('/assets/web/images/kwfUp-webFormButtonLeft.png') no-repeat top right;
 }
-.webForm .button {
+.kwfUp-webForm .button {
     float: left;
     height: 27px;
-    background: url('/assets/web/images/webFormButtonCenter.png') repeat-x top left;
+    background: url('/assets/web/images/kwfUp-webFormButtonCenter.png') repeat-x top left;
 }
-.webForm .afterButton {
-    background: url('/assets/web/images/webFormButtonRight.png') no-repeat top left;
+.kwfUp-webForm .afterButton {
+    background: url('/assets/web/images/kwfUp-webFormButtonRight.png') no-repeat top left;
 }

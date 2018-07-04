@@ -20,14 +20,14 @@
                     <div id="mainMenu">
                         <?=$this->component($this->boxes['mainMenu']);?>
                     </div>
-                    <div class="left" id="innerContent" style="width:<?=$this->componentWidth($this->data)?>px;">
+                    <div class="kwfUp-left" id="innerContent" style="width:<?=$this->componentWidth($this->data)?>px;">
                         <?=$this->component($this->data);?>
                     </div>
                 </div>
-                <div class="clear"></div>
+                <div class="kwfUp-clear"></div>
             </div>
             <div id="outerFooter">
-                <div id="footer" class="webStandard">
+                <div id="footer" class="kwfUp-webStandard">
                     <div class="menu">
                         <?=$this->component($this->boxes['bottomMenu']);?>
                     </div>
