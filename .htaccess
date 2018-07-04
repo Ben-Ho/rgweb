@@ -1,5 +1,7 @@
 RewriteEngine on
 
+RewriteRule ^assets/build/(.*)$ build/assets/$1 [L]
+
 RewriteCond %{REQUEST_URI} !^/*(bootstrap.php)/?
 RewriteRule ^(.*)$ /bootstrap.php [L]
 

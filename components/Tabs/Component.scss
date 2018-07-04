@@ -9,24 +9,24 @@
     font-weight: bold;
     margin-bottom: -4px;
     color: $light;
-    background: url('/assets/web/images/tabsLinkLeftBg.png') no-repeat top right;
+    background: url('~web/images/tabsLinkLeftBg.png') no-repeat top right;
     cursor: pointer;
 }
 .kwcClass .kwfTabsLinks .kwfTabsLink .tab {
     width: auto;
     padding: 4px 4px 0px 4px;
-    background: url('/assets/web/images/tabsLinkCenterBg.png') repeat-x top left;
+    background: url('~web/images/tabsLinkCenterBg.png') repeat-x top left;
 }
 .kwcClass .kwfTabsLinks .kwfTabsLink .afterTab {
-    background: url('/assets/web/images/tabsLinkRightBg.png') no-repeat top left;
+    background: url('~web/images/tabsLinkRightBg.png') no-repeat top left;
 }
 .kwcClass .kwfTabsLinks .kwfTabsLinkActive .beforeTab {
-    background: url('/assets/web/images/tabsLinkLeftActiveBg.png') no-repeat top right;
+    background: url('~web/images/tabsLinkLeftActiveBg.png') no-repeat top right;
 }
 .kwcClass .kwfTabsLinks .kwfTabsLinkActive .tab {
-    background: url('/assets/web/images/tabsLinkCenterActiveBg.png') repeat-x top left;
+    background: url('~web/images/tabsLinkCenterActiveBg.png') repeat-x top left;
 }
 .kwcClass .kwfTabsLinks .kwfTabsLinkActive .afterTab {
-    background: url('/assets/web/images/tabsLinkRightActiveBg.png') no-repeat top left;
+    background: url('~web/images/tabsLinkRightActiveBg.png') no-repeat top left;
 }
 .kwcClass .kwfTabsContent { border-color: $mainColor; }
