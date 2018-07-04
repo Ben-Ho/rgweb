@@ -6,11 +6,10 @@ $include_path .= PATH_SEPARATOR . 'models';
 $include_path .= PATH_SEPARATOR . 'components';
 $include_path .= PATH_SEPARATOR . 'app';
 set_include_path($include_path);
-require_once 'kwf-lib/Kwf/Setup.php';
+require 'vendor/koala-framework/koala-framework/Kwf/Setup.php';
 Kwf_Setup::setUp();
 Kwf_Setup::dispatchKwc();
 Kwf_Setup::dispatchMedia();
-Kwf_Assets_Loader::load();
 
 $front = Kwf_Controller_Front_Component::getInstance();
 
