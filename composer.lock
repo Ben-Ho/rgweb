@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94fec941100d9cd716e4e2abc62e5624",
+    "content-hash": "1394d4d79cf19dbd2c20c3e781263bb8",
     "packages": [
         {
             "name": "jbroadway/urlify",
@@ -170,11 +170,11 @@
         },
         {
             "name": "koala-framework/koala-framework",
-            "version": "4.3.x-dev",
+            "version": "4.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.vivid-planet.com:vivid/koala-framework.git",
-                "reference": "36db288b2ddfc0bad78e4a447cd7c1e95d2c7fc1"
+                "reference": "a2ad071b7ef09cf43ce42efa4f6fd3cb8a075a9f"
             },
             "require": {
                 "jbroadway/urlify": "^1.0.5",
@@ -215,7 +215,7 @@
                     "js-cookie": "^2.1.1"
                 },
                 "require-npm": {
-                    "uglify-js": "~2.4.13",
+                    "uglify-js": "~2.8.27",
                     "node-sass": "~3.7.0",
                     "amdlc": "~0.1.5",
                     "browser-pack": "~5.0.1",
@@ -244,7 +244,6 @@
                 "kwf": {
                     "exclude-production": [
                         "symfony/console",
-                        "symfony/process",
                         "koala-framework/file-watcher",
                         "koala-framework/sourcemaps",
                         "koala-framework/composer-extra-assets",
@@ -276,7 +275,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2018-06-26T07:53:57+00:00"
+            "time": "2018-06-26T07:54:29+00:00"
         },
         {
             "name": "koala-framework/kwf-trl-jsparser",
