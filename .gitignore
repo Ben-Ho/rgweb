@@ -2,3 +2,5 @@
 /vendor
 /bower.json
 /.bowerrc
+/node_modules
+/package.json
