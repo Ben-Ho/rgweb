@@ -1,5 +1,5 @@
-<?=$this->doctype('XHTML1_STRICT');?>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="<?=$this->pageLanguage?>">
     <head>
         <?=$this->component($this->boxes['title']);?>
         <?=$this->component($this->boxes['metaTags']);?>

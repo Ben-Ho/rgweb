@@ -4,8 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fe4519242a3bd6c7efc64cc5d9c8d5e",
+    "content-hash": "7db7db5a11263054dd4903981639ac43",
     "packages": [
+        {
+            "name": "jbroadway/urlify",
+            "version": "1.0.5-stable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbroadway/urlify.git",
+                "reference": "b5f13d860d9da34e4adece6a93e46e0292ab6aa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jbroadway/urlify/zipball/b5f13d860d9da34e4adece6a93e46e0292ab6aa7",
+                "reference": "b5f13d860d9da34e4adece6a93e46e0292ab6aa7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "URLify": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Johnny Broadway",
+                    "email": "johnny@johnnybroadway.com",
+                    "homepage": "http://www.johnnybroadway.com/"
+                }
+            ],
+            "description": "PHP port of URLify.js from the Django project. Transliterates non-ascii characters for use in URLs.",
+            "homepage": "https://github.com/jbroadway/urlify",
+            "keywords": [
+                "encode",
+                "iconv",
+                "link",
+                "slug",
+                "translit",
+                "transliterate",
+                "transliteration",
+                "url",
+                "urlify"
+            ],
+            "time": "2015-05-29T13:53:37+00:00"
+        },
         {
             "name": "koala-framework/composer-extra-assets",
             "version": "v1.1.2",
@@ -113,13 +167,14 @@
         },
         {
             "name": "koala-framework/koala-framework",
-            "version": "3.9.x-dev",
+            "version": "3.10.x-dev",
             "source": {
                 "type": "git",
                 "url": "git@gitlab.vivid-planet.com:vivid/koala-framework.git",
-                "reference": "68f429d65651a496d30e2e1b22b78d8ca4b360d5"
+                "reference": "601d99f4f1e9de76184bc5010ec4a4a3e508392f"
             },
             "require": {
+                "jbroadway/urlify": "1.0.5-stable",
                 "koala-framework/composer-extra-assets": "1.1.*",
                 "koala-framework/extjs2": "2.3.0.*",
                 "koala-framework/file-watcher": "*",
@@ -199,7 +254,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2018-04-18T07:43:09+00:00"
+            "time": "2018-05-23T08:05:00+00:00"
         },
         {
             "name": "koala-framework/kwf-trl-jsparser",
