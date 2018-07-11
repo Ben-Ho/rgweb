@@ -1,14 +1,12 @@
 @import "config/colors";
 .kwcClass {
     background-color: $mainColorLight;
-    behaviour: url('~web/images/border-radius.htc');
     margin: 0px 10px;
     padding: 0px 5px 5px 5px;
     -moz-border-radius: 0px 0px 5px 5px;
     -webkit-border-radius: 0px 0px 5px 5px;
     -khtml-border-radius: 0px 0px 5px 5px;
     border-radius: 0px 0px 5px 5px;
-    behaviour: url('~web/images/border-radius.htc');
 }
 
 .kwcClass ul.menu li.current a,
@@ -18,6 +16,5 @@
     -webkit-border-radius: 0px;
     -khtml-border-radius: 0px;
     border-radius: 0px;
-    behaviour: url('~web/images/border-radius.htc');
 }
 

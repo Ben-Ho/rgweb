@@ -1,11 +1,11 @@
 @import "config/colors";
+
 .kwcClass {
     background-color: $mainColor;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    behaviour: url('~web/images/border-radius.htc');
 }
 .kwcClass ul li a {
     display: block;
@@ -24,5 +24,4 @@
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-    behaviour: url('~web/images/border-radius.htc');
 }
