@@ -16,8 +16,8 @@
     color: $light;
     padding-top: 15px;
 }
-.kwcClass ul.menu li.current a,
-.kwcClass ul.menu li a:hover {
+.kwcClass ul.kwcClass__menu li.current a,
+.kwcClass ul.kwcClass__menu li a:hover {
     color: $light;
     background-color: $mainColorLight;
     -moz-border-radius: 10px;

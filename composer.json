@@ -1,6 +1,7 @@
 {
     "require": {
-        "koala-framework/koala-framework": "5.1.x-dev"
+        "koala-framework/koala-framework": "5.1.x-dev",
+        "paragonie/random_compat": "~2.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ pageLanguage }}">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+        {{ includeCode('header') }}
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link href='http://fonts.googleapis.com/css?family=IM+Fell+English:400,400italic' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="/assets/web/images/favicon.ico" /> 
+    </head>
+    <body class="{{ rootElementClass }}">
+        <div id="page">
+            <div id="outerHeader">
+                <div id="header">Renner - Stauden</div>
+            </div>
+            <div id="outerContent">
+                <div id="content">
+                    <div id="mainMenu">{{ renderer.component(boxes.mainMenu) }}</div>
+                    <div class="kwfUp-left" id="innerContent" style="width:575px;">
+                        {{ renderer.componentWithMaster(componentWithMaster) }}
+                    </div>
+                </div>
+                <div class="kwfUp-clear"></div>
+            </div>
+            <div id="outerFooter">
+                <div id="footer" class="kwfUp-webStandard">
+                    <div class="menu">
+                        {{ renderer.component(boxes.bottomMenu) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ includeCode('footer') }}
+    </body>
+</html>
